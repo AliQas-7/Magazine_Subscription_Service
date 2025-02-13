@@ -135,7 +135,7 @@ Tracks the user's subscription for a magazine.
    JWT_SECRET=your_jwt_secret
    ```
 
-4. Seed the database with plans (optional):
+4. Seed the database with plans:
    Run 
 node utils/seedMagazines.js
 node utils/seedPlans.js
