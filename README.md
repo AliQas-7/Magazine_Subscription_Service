@@ -120,7 +120,7 @@ Tracks the user's subscription for a magazine.
 1. Clone the repository:
    ```bash
    git clone https://github.com/AliQas-7/Magazine_Subscription_Service/tree/main
-   cd magazine-subscription
+   cd Magazine_Subscription_Service
    ```
 
 2. Install dependencies:
