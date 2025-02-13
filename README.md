@@ -119,7 +119,7 @@ Tracks the user's subscription for a magazine.
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/AliQas-7/Magazine_Subscription_Service/tree/main
    cd magazine-subscription
    ```
 
@@ -136,14 +136,17 @@ Tracks the user's subscription for a magazine.
    ```
 
 4. Seed the database with plans (optional):
-   Run a script to prepopulate the `Plan` collection with the required plans.
+   Run 
+node utils/seedMagazines.js
+node utils/seedPlans.js
 
-5. Start the server:
+
+6. Start the server:
    ```bash
    npm run dev
    ```
 
-6. Access the API at `http://localhost:3000/api`.
+7. Access the API at `http://localhost:5000/api`.
 
 ---
 
@@ -189,5 +192,5 @@ While the backend is functional with Node.js, it can be migrated to Next.js for:
 ---
 
 ## Author
-Prepared as part of a backend assignment. For inquiries, contact [Your Name].
+Prepared as part of a backend assignment. For inquiries, contact roman10132526@gmail.com.
 
